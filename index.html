@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gagana Vivek — Software & Data Engineer</title>
+  <meta name="description" content="Portfolio of Gagana Vivek — web apps, data tooling, and selected case studies." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Gagana Vivek</h1>
+      <p class="tagline">Software and data engineer who builds practical, production-ready tools that help teams move faster.</p>
+      <div class="cta">
+        <a href="#projects" class="btn">Projects</a>
+        <a href="#contact" class="btn btn-ghost">Contact</a>
+        <a href="resume.pdf" target="_blank" class="btn btn-outline">Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>I focus on building reliable web applications and data pipelines that deliver measurable outcomes. I enjoy product-minded engineering: shipping features that solve real customer needs and iterating quickly with data.</p>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Featured projects</h2>
+      <div class="grid">
+        <article class="project">
+          <h3>ShareCart — collaborative shopping app</h3>
+          <p>Shared shopping lists with real-time sync, item voting, and cross-platform support. Reduced average list creation time by ~40% in pilot tests.</p>
+          <p class="meta">Tech: React, Firebase, TypeScript</p>
+          <p class="links">
+            <a href="#" target="_blank">Live</a> · <a href="https://github.com/yourusername/sharecart" target="_blank">Code</a>
+          </p>
+        </article>
+
+        <article class="project">
+          <h3>ClinicScreen — screening reminders dashboard</h3>
+          <p>Dashboard for clinicians to track preventive screening status across patient panels. Integrated data from EHR exports and provided prioritized outreach lists.</p>
+          <p class="meta">Tech: Python, Pandas, Flask, PostgreSQL</p>
+          <p class="links">
+            <a href="https://github.com/yourusername/clinicscreen" target="_blank">Code</a>
+          </p>
+        </article>
+
+        <article class="project">
+          <h3>CourseMatch — student-career matching tool</h3>
+          <p>A lightweight recommendation engine to match students to projects and internships based on skills and interests. Used by two university departments during a pilot semester.</p>
+          <p class="meta">Tech: Node.js, Express, MongoDB</p>
+          <p class="links">
+            <a href="https://github.com/yourusername/coursematch" target="_blank">Code</a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <p>JavaScript, TypeScript, React, Node.js, Python, SQL, Docker, AWS. Product focus, data analysis, and end-to-end delivery.</p>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>If you’d like to collaborate or see more work, email me at <a href="mailto:gagana@example.com">gagana@example.com</a>.</p>
+      <p>GitHub · <a href="https://github.com/yourusername" target="_blank">yourusername</a> · LinkedIn · <a href="https://linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© <span id="year"></span> Gagana Vivek — Built with attention to detail</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
