@@ -4,80 +4,148 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Gagana Vivek — Software & Data Engineer</title>
-  <meta name="description" content="Portfolio of Gagana Vivek — web apps, data tooling, and selected case studies." />
+  <meta name="description" content="Portfolio of Gagana Vivek — web apps, data tooling, and case studies." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="hero">
-    <div class="container">
-      <h1>Gagana Vivek</h1>
-      <p class="tagline">Software and data engineer who builds practical, production-ready tools that help teams move faster.</p>
-      <div class="cta">
-        <a href="#projects" class="btn">Projects</a>
-        <a href="#contact" class="btn btn-ghost">Contact</a>
-        <a href="resume.pdf" target="_blank" class="btn btn-outline">Resume</a>
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <div class="avatar" role="img" aria-label="Profile photo"></div>
+        <h1>Gagana Vivek</h1>
+        <p class="eyebrow">Software & Data Engineer</p>
+        <p class="lead">I build production-ready web applications and data tools focused on measurable outcomes and product-first engineering.</p>
+        <div class="cta">
+          <a href="#projects" class="btn">View projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          <a href="resume.pdf" class="btn btn-outline" target="_blank" rel="noopener">Resume</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="stats">
+          <div><span class="num">7+</span><span class="label">Projects shipped</span></div>
+          <div><span class="num">4</span><span class="label">Years experience</span></div>
+          <div><span class="num">2k+</span><span class="label">Users impacted</span></div>
+        </div>
       </div>
     </div>
   </header>
 
   <main class="container">
-    <section id="about" class="card">
+    <section id="about" class="card section-entrance">
       <h2>About</h2>
-      <p>I focus on building reliable web applications and data pipelines that deliver measurable outcomes. I enjoy product-minded engineering: shipping features that solve real customer needs and iterating quickly with data.</p>
+      <p>I focus on reliable engineering and data-driven decisions. I enjoy product-minded development: shipping features that solve real customer problems, iterating rapidly, and measuring impact.</p>
     </section>
 
     <section id="projects" class="card">
-      <h2>Featured projects</h2>
-      <div class="grid">
-        <article class="project">
-          <h3>ShareCart — collaborative shopping app</h3>
-          <p>Shared shopping lists with real-time sync, item voting, and cross-platform support. Reduced average list creation time by ~40% in pilot tests.</p>
-          <p class="meta">Tech: React, Firebase, TypeScript</p>
-          <p class="links">
-            <a href="#" target="_blank">Live</a> · <a href="https://github.com/yourusername/sharecart" target="_blank">Code</a>
-          </p>
+      <div class="section-header">
+        <h2>Featured projects</h2>
+        <p class="muted">Selected work — click any card to view details and tech notes.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project" data-title="ShareCart" data-tech="React · Firebase · TypeScript" data-desc="Shared shopping lists with real-time sync, item voting, and cross-platform support. Reduced list creation time by ~40% in pilots." tabindex="0">
+          <div class="project-preview">ShareCart</div>
+          <div class="project-meta">
+            <p class="project-title">ShareCart</p>
+            <p class="project-sub">Collaborative shopping app</p>
+          </div>
         </article>
 
-        <article class="project">
-          <h3>ClinicScreen — screening reminders dashboard</h3>
-          <p>Dashboard for clinicians to track preventive screening status across patient panels. Integrated data from EHR exports and provided prioritized outreach lists.</p>
-          <p class="meta">Tech: Python, Pandas, Flask, PostgreSQL</p>
-          <p class="links">
-            <a href="https://github.com/yourusername/clinicscreen" target="_blank">Code</a>
-          </p>
+        <article class="project" data-title="ClinicScreen" data-tech="Python · Pandas · Flask · PostgreSQL" data-desc="Dashboard for clinicians to track preventive screenings across patient panels and produce prioritized outreach lists." tabindex="0">
+          <div class="project-preview">ClinicScreen</div>
+          <div class="project-meta">
+            <p class="project-title">ClinicScreen</p>
+            <p class="project-sub">Screening reminders dashboard</p>
+          </div>
         </article>
 
-        <article class="project">
-          <h3>CourseMatch — student-career matching tool</h3>
-          <p>A lightweight recommendation engine to match students to projects and internships based on skills and interests. Used by two university departments during a pilot semester.</p>
-          <p class="meta">Tech: Node.js, Express, MongoDB</p>
-          <p class="links">
-            <a href="https://github.com/yourusername/coursematch" target="_blank">Code</a>
-          </p>
+        <article class="project" data-title="CourseMatch" data-tech="Node.js · Express · MongoDB" data-desc="Lightweight recommendation engine that matches students to projects and internships based on skills and interests." tabindex="0">
+          <div class="project-preview">CourseMatch</div>
+          <div class="project-meta">
+            <p class="project-title">CourseMatch</p>
+            <p class="project-sub">Student-career matching tool</p>
+          </div>
         </article>
       </div>
     </section>
 
-    <section id="skills" class="card">
+    <section id="skills" class="card section-entrance">
       <h2>Skills</h2>
-      <p>JavaScript, TypeScript, React, Node.js, Python, SQL, Docker, AWS. Product focus, data analysis, and end-to-end delivery.</p>
+      <p>JavaScript · TypeScript · React · Node.js · Python · SQL · Docker · AWS · product-minded engineering · data analysis.</p>
     </section>
 
-    <section id="contact" class="card">
+    <section id="contact" class="card section-entrance">
       <h2>Contact</h2>
-      <p>If you’d like to collaborate or see more work, email me at <a href="mailto:gagana@example.com">gagana@example.com</a>.</p>
-      <p>GitHub · <a href="https://github.com/yourusername" target="_blank">yourusername</a> · LinkedIn · <a href="https://linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+      <p>If you'd like to collaborate or see more work, email me at <a href="mailto:gagana@example.com">gagana@example.com</a> or find me on <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a> · <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>.</p>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container">
-      <small>© <span id="year"></span> Gagana Vivek — Built with attention to detail</small>
+      <small>© <span id="year"></span> Gagana Vivek · Built for clarity and impact</small>
     </div>
   </footer>
 
+  <div id="overlay" aria-hidden="true">
+    <div class="overlay-card" role="dialog" aria-modal="true" aria-label="Project detail">
+      <button id="overlay-close" aria-label="Close">×</button>
+      <h3 id="overlay-title"></h3>
+      <p id="overlay-desc"></p>
+      <p id="overlay-tech" class="muted"></p>
+      <p class="overlay-links"><a id="overlay-live" href="#" target="_blank" rel="noopener">Live</a> · <a id="overlay-code" href="#" target="_blank" rel="noopener">Code</a></p>
+    </div>
+  </div>
+
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+    const projects = document.querySelectorAll('.project');
+    const overlay = document.getElementById('overlay');
+    const titleEl = document.getElementById('overlay-title');
+    const descEl = document.getElementById('overlay-desc');
+    const techEl = document.getElementById('overlay-tech');
+    const liveEl = document.getElementById('overlay-live');
+    const codeEl = document.getElementById('overlay-code');
+    const closeBtn = document.getElementById('overlay-close');
+
+    function openOverlay(el){
+      const t = el.dataset.title || '';
+      const d = el.dataset.desc || '';
+      const tech = el.dataset.tech || '';
+      titleEl.textContent = t;
+      descEl.textContent = d;
+      techEl.textContent = tech;
+      liveEl.href = '#';
+      codeEl.href = '#';
+      overlay.style.display = 'block';
+      overlay.setAttribute('aria-hidden', 'false');
+      closeBtn.focus();
+    }
+
+    function closeOverlay(){
+      overlay.style.display = 'none';
+      overlay.setAttribute('aria-hidden', 'true');
+    }
+
+    projects.forEach(p=>{
+      p.addEventListener('click', ()=> openOverlay(p));
+      p.addEventListener('keydown', e=>{
+        if(e.key === 'Enter' || e.key === ' ') openOverlay(p);
+      });
+    });
+
+    closeBtn.addEventListener('click', closeOverlay);
+    overlay.addEventListener('click', e=>{
+      if(e.target === overlay) closeOverlay();
+    });
+
+    document.addEventListener('keydown', e=>{
+      if(e.key === 'Escape') closeOverlay();
+    });
+
+    if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+      document.documentElement.style.setProperty('--reduce-motion', '1');
+    }
   </script>
 </body>
 </html>
